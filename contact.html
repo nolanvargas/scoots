@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/reservations.css">
+    <title>Contact | Scoots</title>
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="index.html"
+        ><img src="images/logo.svg" alt="company logo" />
+        <h1>Scoots</h1></a
+      >
+
+      <h5 class="currentTemp" data-hover="tooltip">N/A</h5>
+
+      <a class="ham" class="ham" href="#"><img src="/images/menu--v1.jpg" /></a>
+
+      <ul class="menu">
+        <li class="menuItem"><a href="/index.html">Home</a></li>
+        <li class="menuItem">
+          <a href="/rentals.html">Rentals</a>
+        </li>
+        <li class="menuItem"><a href="/reservations.html">Reservations</a></li>
+        <li class="menuItem"><a href="/tours.html">Tours</a></li>
+        <li class="menuItem"><a href="/about.html">About</a></li>
+        <li  id="active" class="menuItem"><a href="/contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <div id="forecast">
+        <div id="forecastParent">
+            <section class="forecast">
+            </section>
+        </div>
+    </div>
+
+    <h1 id="title">Let us know what you think</h1>
+
+    <form id="contact" class="form" method="get" action="contactthanks.html">
+      <label>
+        Name
+        <input
+          type="text"
+          name="name"
+          pattern="[A-Za-z]{2,256}"
+          title="Name must be a minimum of 2 letters"
+          required
+        />
+      </label>
+  
+      <label>
+        Email
+        <input
+          type="email"
+          name="email"
+          placeholder="example@gmail.com"
+          required
+        />
+      </label>
+  
+      <label>
+        Phone
+        <input
+          type="tel"
+          name="tel"
+          pattern="[\d]{10}"
+          title="10 Digits only"
+          required
+        />
+      </label>  
+  
+      <h4>Comments or concerns </h4>
+      <label>
+        <textarea name="additionalComments" rows="10" cols="40"></textarea>
+      </label>
+      <input type="submit" value="Send" />
+    </form>
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d119517.54687094314!2d-86.99552710175715!3d20.59118802150445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1649272102566!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    <section class="newsletter">
+      <h1 id="join">Join our newsletter!</h1>
+      <h3>
+        Sign up to receive information about Scoots latest promos, popular
+        destinations, upcoming events, blog posts, and more!
+      </h3>
+      <form class="newsletterForm" method="get" onsubmit="test()">
+        <label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Your Email Adress *"
+            required
+            value
+            autocomplete="email"
+          />
+        </label>
+        <input id="submit" type="submit" value="Sign Up" />
+      </form>
+    </section>
+
+    <footer>
+      <div class="footerContent">
+        <div class="footerBlock rent">
+          <ul data-header="Rent">
+            <a href="/rentals.html"><li>Rent Now</li></a>
+            <a href="/locations.html"><li>Locations</li></a>
+            <a href="/quote.html"><li>Get A Quote</li></a>
+            <a
+              href="https://www.bbb.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><li>Reviews</li></a
+            >
+          </ul>
+        </div>
+
+        <div class="footerBlock locations privacy">
+          <ul data-header="Locations">
+            <a href="/locations.html"> <li>El Centro de Cozumel</li></a>
+            <a href="/locations.html"> <li>Terminal Puerta Maya</li></a>
+          </ul>
+
+          <ul data-header="Privacy">
+            <li>Cookie Declaration</li>
+            <li>Data Compliance</li>
+            <li>Priavte Policy</li>
+            <li>Terms of Service</li>
+          </ul>
+        </div>
+
+        <div class="footerBlock scoots resources">
+          <ul data-header="Scoots">
+            <a href="/about.html"> <li>About</li></a>
+            <li>Careers</li>
+          </ul>
+
+          <ul data-header="Resources">
+            <a href="index.html"><li>FAQ</li></a>
+            <a href="news.html"> <li>News/Updates</li></a>
+            <a class="trigger_popup" onclick="attribute()"> <li>Attributions</li></a>
+          </ul>
+        </div>
+
+        
+        <div class="footerBlock social contact">
+          <ul data-header="Social">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li>Instagram</li></a
+            >
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li>Facebook</li></a
+            >
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li>Pinterest</li></a
+            ><a
+            href="https://pinterest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <a
+          href="https://youtube.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li>Youtube</li></a
+        > 
+          </ul>
+
+          <ul data-header="Contact">
+            <li>contact@scoots.com</li>
+            <li>1-800-555-5555</li>
+            <li>P.O. 293 NM, 18550</li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <h5 class="subFooter">
+          Last Modified: this time | Scoots copyright etc
+        </h5>
+      </div>
+    </footer>
+
+    <div class="attributes">
+    </div>
+
+
+    <script src="js/index.js"></script>
+    <script src="/js/weather.js"></script>
+    <script src='/js/footer.js'></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

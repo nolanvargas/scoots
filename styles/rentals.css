@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&family=Source+Sans+Pro:wght@300;400;600&display=swap");
+:root {
+  --grey: #50514f;
+  --crimson: #931026;
+  --white: #e5ece9;
+  --blue: #000d29;
+
+  --raleway: "Raleway", sans-serif;
+  --sspro: "Source Sans Pro", sans-serif;
+}
+
+.rental {
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+td,
+th {
+  border-bottom: 1px solid black;
+  font-family: var(--sspro);
+  color: var(--blue);
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  td,
+  th {
+    font-size: 1.55rem;
+  }
+}
+
+@media (max-width: 455px) {
+  td,
+  th {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  td,
+  th {
+    padding-left: 20px;
+  }
+}
+
+.prompt {
+  text-align: center;
+  font-family: var(--sspro);
+  color: var(--blue);
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+@media (min-width: 1001px) {
+  .vehicle img {
+    width: 700px;
+  }
+  .vehicle {
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .vehicle img {
+    width: 70vw;
+  }
+
+  .vehicle * {
+    font-size: 1.6rem;
+  }
+}
+
+.vehicle * {
+  font-family: var(--raleway);
+  color: var(--crimson);
+  margin: auto;
+}
+
+.vehicle {
+  display: grid;
+  margin-top: 50px;
+  margin: auto;
+}
+
+p {
+  width: 70%;
+  display: block;
+  margin: auto;
+  font-family: var(--sspro);
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,85 @@
+#stormCenter h1 {
+  margin: 10px auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.form {
+  background-color: lightgray;
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.form * {
+  font-family: var(--sspro);
+  font-weight: 600;
+  color: var(--blue);
+  display: block;
+  padding-top: 10px;
+  margin: 5px;
+}
+#tickmarks {
+  display: none;
+}
+
+#rating {
+  width: 15vw;
+  padding: 0;
+  margin-top: -5px;
+}
+.flexly {
+  display: flex;
+}
+#location *,
+#location,
+#danger,
+#danger * {
+  padding: 0;
+}
+#location label,
+#danger label {
+  display: flex;
+}
+
+#location h4,
+#danger h4 {
+  display: block;
+}
+[type*="submit"] {
+  width: 100px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+[type*="text"],
+[type*="email"],
+[type*="tel"] {
+  width: 50%;
+}
+
+#danger {
+  margin-top: 10px;
+}
+
+.reserveTitle,
+#title {
+  text-align: center;
+  font-family: var(--raleway);
+  font-weight: 700;
+  color: var(--crimson);
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid var(--crimson);
+}
+
+#submit {
+  padding: 10px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  width: 90vw;
+  max-width: 500px;
+}

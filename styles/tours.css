@@ -1,0 +1,23 @@
+.content img {
+  width: 80vw;
+  max-width: 1000px;
+  margin: auto;
+  display: block;
+}
+
+.content * {
+  font-family: var(--sspro);
+  color: var(--blue);
+  text-align: center;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.content p {
+  margin-bottom: 50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1.2rem;
+}

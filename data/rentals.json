@@ -1,0 +1,50 @@
+{
+  "metroscooter": {
+    "name": "Honda Metro Scooter",
+    "maxpersons": "1",
+    "halfdayR": "20",
+    "fulldayR": "30",
+    "halfdayW": "25",
+    "fulldayW": "35"
+  },
+  "dioscooter": {
+    "name": "Honda Dio Scooter",
+    "maxpersons": "2",
+    "halfdayR": "30",
+    "fulldayR": "40",
+    "halfdayW": "35",
+    "fulldayW": "45"
+  },
+  "pcx150scooter": {
+    "name": "Honda PCX150 Scooter",
+    "maxpersons": "2",
+    "halfdayR": "40",
+    "fulldayR": "50",
+    "halfdayW": "45",
+    "fulldayW": "55"
+  },
+  "pioneeratv": {
+    "name": "Honda Pioneer ATV",
+    "maxpersons": "4",
+    "halfdayR": "50",
+    "fulldayR": "70",
+    "halfdayW": "60",
+    "fulldayW": "80"
+  },
+  "wrangler4": {
+    "name": "Jeep Wrangler—4 door with a/c",
+    "maxpersons": "5",
+    "halfdayR": "70",
+    "fulldayR": "100",
+    "halfdayW": "85",
+    "fulldayW": "125"
+  },
+  "wrangler2": {
+    "name": "Jeep Wrangler—2 door",
+    "maxpersons": "4",
+    "halfdayR": "60",
+    "fulldayR": "85",
+    "halfdayW": "70",
+    "fulldayW": "90"
+  }
+}
